@@ -12,5 +12,5 @@ class BaseReport(ABC):
 
     @abstractmethod
     def headers(self) -> List[str]:
-        """Возвращает заголовки таблицы"""
+        """Возвращает заголовок таблицы"""
         pass

@@ -7,6 +7,7 @@ class AverageRatingReport(BaseReport):
     """Отчёт: средний рейтинг по брендам"""
 
     def generate(self, data: List[Dict[str, str]]) -> List[List[str]]:
+        """Формирует таблицу со средними рейтингами по брендам"""
         brand_ratings = {}
 
         for row in data:
@@ -25,4 +26,5 @@ class AverageRatingReport(BaseReport):
         return result
 
     def headers(self) -> List[str]:
+        """Возвращает заголовок таблицы"""
         return ["№", "brand", "rating"]
