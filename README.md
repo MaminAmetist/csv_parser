@@ -26,3 +26,13 @@ python main.py --files products1.csv products2.csv --report average-rating
 ### Пример вывода:
 
 ![example.png](example.png)
+
+
+### Запуск тестов:
+
+```bash
+pytest
+```
+### Пример вывода:
+
+![test-cov.JPG](test-cov.JPG)

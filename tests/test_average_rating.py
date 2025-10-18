@@ -1,6 +1,7 @@
 import pytest
 import pathlib
 from typing import List, Dict
+
 from reports.average_rating import AverageRatingReport
 from reader import read_csv_files
 
